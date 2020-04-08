@@ -27,11 +27,5 @@ int col;
 void detection_collision(perso *p, entity* e);
 
 
-
-
-
-
-
-
 #endif 
 
