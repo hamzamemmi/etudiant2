@@ -82,16 +82,6 @@ void afficher_entity(entity * e , SDL_Surface *screen)
   
 
 }
-void detection_collision(personnage *p, entity* e){
-	if (e->col==0){
-if ((p->perso_pos.x + p->perso_pos. w< e->pos_entity. x) || (p->perso_pos.x> e->pos_entity. x + e->pos_entity. w) ||
-(p->perso_pos.y + p->perso_pos.h< e->pos_entity. y) || (p->perso_pos.y> e->pos_entity. y + e->pos_entity. h ))
-e->col= 0;
-else 
-e->col=1;
-	}
-
-}
 
 
 void mvt_entity(entity *e)
