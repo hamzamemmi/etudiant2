@@ -23,6 +23,5 @@ void initialiser_entity (entity *e) ;
 void afficher_entity(entity * e , SDL_Surface *screen);
 void anim(entity *e);
 void mvt_entity(entity *e);
-void detection_collision(personnage *p, entity* e);
 
 #endif 
