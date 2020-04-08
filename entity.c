@@ -70,7 +70,6 @@ void initialiser_entity(entity *e)
     e->entity_pos.y = 100;
     init_tab_anim_entity(e->anim_entity);
     e->cont_entity=0;
-    e->type=1;
 e->col=0;
 }
 
