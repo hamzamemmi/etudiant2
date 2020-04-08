@@ -10,8 +10,10 @@
 #include <SDL/SDL_mixer.h>
 typedef struct
 {	
- SDL_Surface *perso,*d[8],*g[8];
- SDL_Rect *posperso;
+ SDL_Surface *perso;
+ SDL_Rect posperso;
+ SDL_Rect anime_perso[16];
+ int frameNumber, frameTimer;
 }perso;
 
 typedef struct {
